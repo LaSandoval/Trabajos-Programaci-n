@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <title>PLANETAS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+       <body style="background-image:url('https://img.freepik.com/fotos-premium/gradiente-colores-pastel-fondo-claro-bokeh_53876-149769.jpg?w=2000')"></body> 
+       
+       <form class="form" method="POST" action="calculo.jsp">
+           <script>
+         alert("¡Hola! Es un gusto que uses esta página" );
+         </script>
+           
+           <h2 class="form_tittle">¡Calculadora de peso!</h2>
+           <p class="form_paragraph">Con solo intruducir su peso respectivo al planeta tierra podrá conocer su peso en el planeta que desee </p>
+            
+            <div class="form_container">
+            <div class="form_group">
+                 <form action="calculo.jsp" method="post">
+                 </div>
+            <div class="form_group">
+                 <label for="peso" class="form_label">Peso: </label>
+                 <input type="number" step="any" class="form_input"  placeholder="Por favor ingrese su peso en KG:" name="peso" required ><br>
+                </div>
+                
+            <div class="form_group">
+                 <label for="planeta" class="form_label">Seleccione el planeta</label>
+                 <select name="planeta" id="planeta" class="form_select" required>
+                 <option></option>
+                 <option value="venus" name="venus">Venus</option>
+                 <option value="marte" name="marte">Marte</option>
+                 <option value="mercurio" name="mercurio">Mercurio</option>
+                 <option value="jupiter" name="jupiter">Jupiter</option>
+                 <option value="saturno" name="saturno">Saturno</option>
+                 <option value="urano" name="urano">Urano</option>
+                 <option value="neptuno" name="neptuno">Neptuno</option>
+                 </select><br>
+                 </div>
+                   
+        <input type="submit"  value="Calcular">
+        
+        </form>
+   </body>
+</html>
