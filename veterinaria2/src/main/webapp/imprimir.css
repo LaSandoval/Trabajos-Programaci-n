@@ -1,0 +1,48 @@
+body
+
+.form_tittle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+#main-container{
+    margin:150px auto;
+    width: 800px;
+}
+
+table{
+    background-color:white;
+    width: 100px;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100px;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 15px;
+}
+
+thead{
+    background-color:#009999;
+    border-bottom: solid 2px #006666;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color:#ccffcc
+}
+tr:hover th{
+    background-color: #369681;
+    color: white; 
+}
+#boton_enviar{
+    background-color:#369681;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding: .2em 0;
+    border-radius: .5em;
+}

@@ -1,0 +1,6 @@
+com\company\veterinaria2\resources\JakartaEE91Resource.class
+controlador\registro.class
+modelo\Felino.class
+modelo\Mascota.class
+com\company\veterinaria2\JakartaRestConfiguration.class
+modelo\Canino.class

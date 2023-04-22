@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <title>Veterinaria</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+
+    <body style="background-image:url('https://media.istockphoto.com/vectors/dog-bone-paw-seamless-pattern-vector-pet-footprint-french-bulldog-vector-id1138135871')"></body> 
+
+    <form class="form" action="registro" method="POST">
+        <div class="form_container">
+             <h1 class="form_tittle">CONTROL REGISTRO DE MASCOTAS</h1>
+        
+        
+                    <div class="form_group">
+                        <label for="tipo" class="form_label">Seleccione el tipo de mascota</label>
+                        <select name="tipo" id="tipo" class="form_select" required>
+                            <option></option>
+                            <option value="felino" name="felino">Felino</option>
+                            <option value="canino" name="canino">Canino</option>
+                        </select>
+                    </div>
+                    <div class="form_group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                    </div>
+                    <div class="form_group">
+                        <label for="raza">Raza:</label>
+                        <input type="text" id="raza" name="raza" required><br>
+                    </div>
+                    <div class="form_group">
+                        <label for="color">Color:</label>
+                        <input type="text" id="color" name="color" required><br>
+                    </div>
+                    <div class="form_group">
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" required><br> 
+                    </div>
+
+                    <div class="form_group">
+                        <div id="toxiss"> 
+                            <label for="toxop" class="form_label">Su mascota tiene toxoplasmosis?</label>
+                            <input type="radio" name="toxoplasmosis" value="si" id="si" >
+                            <label for="si"> Si </label>
+                            <input type="radio" name="toxoplasmosis" value="no" id="no" required checked>
+                            <label for="no"> No </label>
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <div id="nivel"> 
+                            <label for="nivelEntrenamiento">Nivel de entrenamiento del canino </label>
+                            <input type="number" name="nivelEntrenamiento" min="0" max="10" value="0" ><br>
+                        </div>
+                    </div>  
+                    <input type="submit" class="form_submit" value="GUARDAR">   
+                </div>
+
+            </form>
+            <script src="campo.js"></script>
+            </body>
+
+            </html>
